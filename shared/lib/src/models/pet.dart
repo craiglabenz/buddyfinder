@@ -3,6 +3,8 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 part 'pet.freezed.dart';
 part 'pet.g.dart';
 
+enum PetType { dog, cat }
+
 @freezed
 sealed class Pet with _$Pet {
   const factory Pet.dog({

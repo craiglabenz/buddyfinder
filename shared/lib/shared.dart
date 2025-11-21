@@ -1,5 +1,6 @@
 library;
 
+export 'src/api/api_client.dart';
 export 'src/models/pet.dart';
 export 'src/shared_base.dart';
 
