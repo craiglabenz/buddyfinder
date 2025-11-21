@@ -1,0 +1,382 @@
+[
+  {
+    "runtimeType": "dog",
+    "id": "dog-1",
+    "name": "Buddy",
+    "age": 3,
+    "breed": "Golden Retriever",
+    "imageUrl": "buddy.jpg",
+    "description": "Friendly and energetic, loves playing fetch."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-2",
+    "name": "Max",
+    "age": 4,
+    "breed": "German Shepherd",
+    "imageUrl": "max.jpg",
+    "description": "Loyal and intelligent, great watch dog."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-3",
+    "name": "Bella",
+    "age": 2,
+    "breed": "Labrador Retriever",
+    "imageUrl": "bella.jpg",
+    "description": "Sweet-natured and great with kids."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-4",
+    "name": "Charlie",
+    "age": 5,
+    "breed": "Poodle",
+    "imageUrl": "charlie.jpg",
+    "description": "Smart and hypoallergenic, loves to learn tricks."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-5",
+    "name": "Lucy",
+    "age": 1,
+    "breed": "Beagle",
+    "imageUrl": "lucy.jpg",
+    "description": "Curious and merry, follows her nose everywhere."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-6",
+    "name": "Cooper",
+    "age": 6,
+    "breed": "Bulldog",
+    "imageUrl": "cooper.jpg",
+    "description": "Calm and courageous, loves a good nap."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-7",
+    "name": "Daisy",
+    "age": 3,
+    "breed": "Rottweiler",
+    "imageUrl": "daisy.jpg",
+    "description": "Confident and guardian-like, very affectionate with family."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-8",
+    "name": "Milo",
+    "age": 2,
+    "breed": "Boxer",
+    "imageUrl": "milo.jpg",
+    "description": "Fun-loving and bright, energetic playmate."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-9",
+    "name": "Luna",
+    "age": 4,
+    "breed": "Siberian Husky",
+    "imageUrl": "luna.jpg",
+    "description": "Outgoing and mischievous, loves to run."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-10",
+    "name": "Rocky",
+    "age": 7,
+    "breed": "Dachshund",
+    "imageUrl": "rocky.jpg",
+    "description": "Spunky and curious, big personality in a small package."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-11",
+    "name": "Bear",
+    "age": 5,
+    "breed": "Great Dane",
+    "imageUrl": "bear.jpg",
+    "description": "Gentle giant, patient and dependable."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-12",
+    "name": "Sadie",
+    "age": 3,
+    "breed": "Doberman Pinscher",
+    "imageUrl": "sadie.jpg",
+    "description": "Fearless and vigilant, very loyal."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-13",
+    "name": "Duke",
+    "age": 2,
+    "breed": "Australian Shepherd",
+    "imageUrl": "duke.jpg",
+    "description": "Smart and work-oriented, needs lots of activity."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-14",
+    "name": "Lola",
+    "age": 6,
+    "breed": "Shih Tzu",
+    "imageUrl": "lola.jpg",
+    "description": "Affectionate and playful, loves being a lap dog."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-15",
+    "name": "Tucker",
+    "age": 4,
+    "breed": "Miniature Schnauzer",
+    "imageUrl": "tucker.jpg",
+    "description": "Friendly and obedient, spirited terrier."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-16",
+    "name": "Bentley",
+    "age": 3,
+    "breed": "Corgi",
+    "imageUrl": "bentley.jpg",
+    "description": "Affectionate and smart, loves to herd."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-17",
+    "name": "Riley",
+    "age": 2,
+    "breed": "Border Collie",
+    "imageUrl": "riley.jpg",
+    "description": "Remarkably bright and energetic workaholic."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-18",
+    "name": "Zoe",
+    "age": 5,
+    "breed": "Cavalier King Charles Spaniel",
+    "imageUrl": "zoe.jpg",
+    "description": "Graceful and gentle, the ultimate lap dog."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-19",
+    "name": "Buster",
+    "age": 4,
+    "breed": "Boston Terrier",
+    "imageUrl": "buster.jpg",
+    "description": "Friendly and lively, the 'American Gentleman'."
+  },
+  {
+    "runtimeType": "dog",
+    "id": "dog-20",
+    "name": "Bailey",
+    "age": 3,
+    "breed": "Pomeranian",
+    "imageUrl": "bailey.jpg",
+    "description": "Lively and bold, inquisitive and attentive."
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-1",
+    "name": "Oliver",
+    "age": 2,
+    "breed": "Siamese",
+    "imageUrl": "oliver.jpg",
+    "description": "Vocal and social, loves attention.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-2",
+    "name": "Leo",
+    "age": 5,
+    "breed": "Persian",
+    "imageUrl": "leo.jpg",
+    "description": "Quiet and sweet, loves lounging.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-3",
+    "name": "Milo",
+    "age": 3,
+    "breed": "Maine Coon",
+    "imageUrl": "milo.jpg",
+    "description": "Gentle giant, friendly and playful.",
+    "isIndoor": false
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-4",
+    "name": "Charlie",
+    "age": 4,
+    "breed": "Ragdoll",
+    "imageUrl": "charlie.jpg",
+    "description": "Affectionate and relaxed, goes limp when held.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-5",
+    "name": "Simba",
+    "age": 2,
+    "breed": "Bengal",
+    "imageUrl": "simba.jpg",
+    "description": "Energetic and playful, loves to climb.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-6",
+    "name": "Max",
+    "age": 6,
+    "breed": "Sphynx",
+    "imageUrl": "max.jpg",
+    "description": "Hairless and warm, loves to cuddle.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-7",
+    "name": "Jack",
+    "age": 3,
+    "breed": "British Shorthair",
+    "imageUrl": "jack.jpg",
+    "description": "Calm and easygoing, dense plush coat.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-8",
+    "name": "Loki",
+    "age": 1,
+    "breed": "Abyssinian",
+    "imageUrl": "loki.jpg",
+    "description": "Active and curious, loves to explore.",
+    "isIndoor": false
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-9",
+    "name": "Tiger",
+    "age": 4,
+    "breed": "Scottish Fold",
+    "imageUrl": "tiger.jpg",
+    "description": "Sweet and quiet, folded ears.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-10",
+    "name": "Jasper",
+    "age": 5,
+    "breed": "Birman",
+    "imageUrl": "jasper.jpg",
+    "description": "Gentle and affectionate, silky coat.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-11",
+    "name": "Oreo",
+    "age": 2,
+    "breed": "Russian Blue",
+    "imageUrl": "oreo.jpg",
+    "description": "Quiet and shy, beautiful blue coat.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-12",
+    "name": "George",
+    "age": 3,
+    "breed": "Norwegian Forest Cat",
+    "imageUrl": "george.jpg",
+    "description": "Large and friendly, loves to climb.",
+    "isIndoor": false
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-13",
+    "name": "Smokey",
+    "age": 7,
+    "breed": "Burmese",
+    "imageUrl": "smokey.jpg",
+    "description": "People-oriented and playful, very social.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-14",
+    "name": "Oscar",
+    "age": 4,
+    "breed": "Oriental Shorthair",
+    "imageUrl": "oscar.jpg",
+    "description": "Vocal and active, elegant appearance.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-15",
+    "name": "Toby",
+    "age": 2,
+    "breed": "Devon Rex",
+    "imageUrl": "toby.jpg",
+    "description": "Pixie-like and mischievous, curly coat.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-16",
+    "name": "Sam",
+    "age": 5,
+    "breed": "Cornish Rex",
+    "imageUrl": "sam.jpg",
+    "description": "Playful and energetic, soft wavy coat.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-17",
+    "name": "Lucky",
+    "age": 3,
+    "breed": "Himalayan",
+    "imageUrl": "lucky.jpg",
+    "description": "Sweet and docile, Persian type with points.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-18",
+    "name": "Felix",
+    "age": 4,
+    "breed": "American Shorthair",
+    "imageUrl": "felix.jpg",
+    "description": "Easygoing and adaptable, classic look.",
+    "isIndoor": false
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-19",
+    "name": "Simon",
+    "age": 2,
+    "breed": "Turkish Angora",
+    "imageUrl": "simon.jpg",
+    "description": "Elegant and active, silky coat.",
+    "isIndoor": true
+  },
+  {
+    "runtimeType": "cat",
+    "id": "cat-20",
+    "name": "Boots",
+    "age": 6,
+    "breed": "Manx",
+    "imageUrl": "boots.jpg",
+    "description": "Round and tailless, good jumper.",
+    "isIndoor": true
+  }
+]
