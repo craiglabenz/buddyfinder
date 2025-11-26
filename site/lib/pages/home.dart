@@ -3,7 +3,6 @@ import 'package:site/components/filters_sorting.dart';
 import 'package:site/components/pets_section.dart';
 import '../components/hero.dart';
 
-@client
 class Home extends StatelessComponent {
   const Home({super.key});
 

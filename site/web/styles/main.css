@@ -144,9 +144,9 @@ button, select, input {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1552053831-71594a27632d?q=80&w=2000&auto=format&fit=crop');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('http://localhost:8888/homepage-hero.png');
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     border-radius: var(--radius-xl);
     height: 500px;
     display: flex;
