@@ -1,7 +1,4 @@
 import 'package:jaspr/jaspr.dart';
-import 'package:jaspr_router/jaspr_router.dart';
-
-import '../constants/theme.dart';
 
 class Header extends StatelessComponent {
   const Header({super.key});
@@ -10,62 +7,38 @@ class Header extends StatelessComponent {
   Component build(BuildContext context) {
     var activePath = context.url;
 
-    return header([
-      nav([
-        for (var route in [
-          (label: 'Home', path: '/'),
-          (label: 'About', path: '/about'),
-        ])
-          div(classes: activePath == route.path ? 'active' : null, [
-            Link(to: route.path, child: text(route.label)),
+    return section([
+      // <!-- Navigation -->
+      nav(classes: 'navbar', [
+        div(classes: 'container navbar-content', [
+          // <!-- Logo -->
+          div(classes: 'logo', [
+            img(src: 'images/logo.png', width: 160),
           ]),
+
+          // <!-- Nav Links -->
+          div(classes: 'nav-links', [
+            a(href: '/dogs', classes: activePath == '/dogs' ? 'active' : '', [text('Find a Dog')]),
+            a(href: '/cats', classes: activePath == '/cats' ? 'active' : '', [text('Find a Cat')]),
+            a(href: '/about', classes: activePath == '/about' ? 'active' : '', [text('About Us')]),
+          ]),
+
+          // <!-- Action Buttons -->
+          div(classes: 'nav-actions', [
+            button(classes: 'btn-primary', [text('Login')]),
+            button(classes: 'btn-icon', [
+              i(classes: 'fa-solid fa-heart', []),
+            ]),
+            // <!-- Mobile menu button -->
+            button(classes: 'mobile-menu-btn', [
+              i(classes: 'fa-solid fa-bars', []),
+            ]),
+          ]),
+        ]),
       ]),
     ]);
   }
 
   @css
-  static List<StyleRule> get styles => [
-    css('header', [
-      css('&').styles(
-        display: Display.flex,
-        padding: Padding.all(1.em),
-        justifyContent: JustifyContent.center,
-      ),
-      css('nav', [
-        css('&').styles(
-          display: Display.flex,
-          height: 3.em,
-          radius: BorderRadius.all(Radius.circular(10.px)), 
-          overflow: Overflow.clip,
-          justifyContent: JustifyContent.spaceBetween,
-          backgroundColor: primaryColor,
-        ),
-        css('a', [
-          css('&').styles(
-            display: Display.flex,
-            height: 100.percent,
-            padding: Padding.symmetric(horizontal: 2.em),
-            alignItems: AlignItems.center,
-            color: Colors.white,
-            fontWeight: FontWeight.w700,
-            textDecoration: const TextDecoration(line: TextDecorationLine.none),
-          ),
-          css('&:hover').styles(
-            backgroundColor: const Color('#0005'),
-          ),
-        ]),
-        css('div.active', [
-          css('&').styles(position: const Position.relative()),
-          css('&::before').styles(
-            content: '',
-            display: Display.block,
-            position: Position.absolute(bottom: 0.5.em, left: 20.px, right: 20.px),
-            height: 2.px,
-            radius: BorderRadius.circular(1.px),
-            backgroundColor: Colors.white,
-          ),
-        ])
-      ]),
-    ]),
-  ];
+  static List<StyleRule> get styles => [];
 }

@@ -34,7 +34,8 @@ class PetsRepository {
         if (type == PetType.dog && pet is! Dog) return false;
         if (type == PetType.cat && pet is! Cat) return false;
       }
-      if (breed != null && pet.breed.toLowerCase() != breed.toLowerCase()) {
+      if (breed != null &&
+          !pet.breed.toLowerCase().contains(breed.toLowerCase())) {
         return false;
       }
       return true;
