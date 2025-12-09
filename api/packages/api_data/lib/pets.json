@@ -14,7 +14,7 @@
     "name": "Max",
     "age": 4,
     "breed": "German Shepherd",
-    "imageUrl": "max.jpg",
+    "imageUrl": "max-dog.jpg",
     "description": "Loyal and intelligent, great watch dog."
   },
   {
@@ -205,7 +205,7 @@
     "name": "Milo",
     "age": 3,
     "breed": "Maine Coon",
-    "imageUrl": "milo.jpg",
+    "imageUrl": "milo-cat.jpg",
     "description": "Gentle giant, friendly and playful.",
     "isIndoor": false
   },
@@ -215,7 +215,7 @@
     "name": "Charlie",
     "age": 4,
     "breed": "Ragdoll",
-    "imageUrl": "charlie.jpg",
+    "imageUrl": "charlie-cat.jpg",
     "description": "Affectionate and relaxed, goes limp when held.",
     "isIndoor": true
   },
@@ -235,7 +235,7 @@
     "name": "Max",
     "age": 6,
     "breed": "Sphynx",
-    "imageUrl": "max.jpg",
+    "imageUrl": "max-cat.jpg",
     "description": "Hairless and warm, loves to cuddle.",
     "isIndoor": true
   },

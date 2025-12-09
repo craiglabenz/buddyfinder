@@ -5,6 +5,30 @@ part 'pet.g.dart';
 
 enum PetType { dog, cat }
 
+enum PetAge {
+  puppy,
+  young,
+  adult,
+  senior;
+
+  PetAge fromAge(int age, PetType type) {
+    return switch (type) {
+      .dog => switch (age) {
+        < 2 => PetAge.puppy,
+        < 4 => PetAge.young,
+        < 8 => PetAge.adult,
+        _ => PetAge.senior,
+      },
+      .cat => switch (age) {
+        < 2 => PetAge.puppy,
+        < 6 => PetAge.young,
+        < 14 => PetAge.adult,
+        _ => PetAge.senior,
+      },
+    };
+  }
+}
+
 @freezed
 sealed class Pet with _$Pet {
   const factory Pet.dog({

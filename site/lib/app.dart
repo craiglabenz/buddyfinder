@@ -22,7 +22,22 @@ class App extends StatelessComponent {
       Router(
         routes: [
           Route(path: '/', title: 'Home', builder: (context, state) => const Home()),
-          Route(path: '/about', title: 'About', builder: (context, state) => const About()),
+          Route(
+            path: '/dogs',
+            title: 'Find a Dog',
+            builder: (context, state) => const Home(petType: .dog),
+          ),
+          Route(
+            path: '/cats',
+            title: 'Find a Cat',
+            builder: (context, state) => const Home(petType: .cat),
+          ),
+          Route(
+            path: '/breeds/:breed',
+            title: 'Find by Breed',
+            builder: (context, state) => Home(breed: state.params['breed']),
+          ),
+          Route(path: '/about', title: 'About', builder: (context, state) => const AboutPage()),
         ],
       ),
     ]);

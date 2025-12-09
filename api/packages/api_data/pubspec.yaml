@@ -1,6 +1,7 @@
 name: api_data
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
+publish_to: none
 # repository: https://github.com/my_org/my_repo
 
 environment:
@@ -8,12 +9,11 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  http: ^1.6.0
   args: ^2.7.0
-  # path: ^1.9.0
+  http: ^1.6.0
+  shared:
+    path: ../../../shared
 
 dev_dependencies:
   lints: ^6.0.0
-  shared:
-    path: ../../../shared
   test: ^1.25.6
