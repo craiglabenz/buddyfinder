@@ -1,4 +1,5 @@
 import 'package:jaspr/jaspr.dart';
+import 'package:jaspr/dom.dart';
 
 class Header extends StatelessComponent {
   const Header({super.key});
@@ -18,14 +19,14 @@ class Header extends StatelessComponent {
 
           // <!-- Nav Links -->
           div(classes: 'nav-links', [
-            a(href: '/dogs', classes: activePath == '/dogs' ? 'active' : '', [text('Find a Dog')]),
-            a(href: '/cats', classes: activePath == '/cats' ? 'active' : '', [text('Find a Cat')]),
-            a(href: '/about', classes: activePath == '/about' ? 'active' : '', [text('About Us')]),
+            a(href: '/dogs', classes: activePath == '/dogs' ? 'active' : '', [Component.text('Find a Dog')]),
+            a(href: '/cats', classes: activePath == '/cats' ? 'active' : '', [Component.text('Find a Cat')]),
+            a(href: '/about', classes: activePath == '/about' ? 'active' : '', [Component.text('About Us')]),
           ]),
 
           // <!-- Action Buttons -->
           div(classes: 'nav-actions', [
-            button(classes: 'btn-primary', [text('Login')]),
+            button(classes: 'btn-primary', [Component.text('Login')]),
             button(classes: 'btn-icon', [
               i(classes: 'fa-solid fa-heart', []),
             ]),

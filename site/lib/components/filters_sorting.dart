@@ -1,4 +1,5 @@
 import 'package:jaspr/jaspr.dart';
+import 'package:jaspr/dom.dart';
 import 'package:universal_web/web.dart';
 import 'package:site/utils.dart';
 
@@ -19,13 +20,13 @@ class FiltersAndSorting extends StatelessComponent {
               },
               [
                 option([
-                  text('Animal Type'),
+                  Component.text('Animal Type'),
                 ]),
                 option(value: 'dogs', [
-                  text('Dog'),
+                  Component.text('Dog'),
                 ]),
                 option(value: 'cats', [
-                  text('Cat'),
+                  Component.text('Cat'),
                 ]),
               ],
             ),
@@ -40,47 +41,47 @@ class FiltersAndSorting extends StatelessComponent {
                 window.location.href = '/breeds/${slugify(event.first)}';
               },
               [
-                option([text('Breed')]),
-                option([text('Abyssinian')]),
-                option([text('American Shorthair')]),
-                option([text('Australian Shepherd')]),
-                option([text('Beagle')]),
-                option([text('Bengal')]),
-                option([text('Birman')]),
-                option([text('Border Collie')]),
-                option([text('Boston Terrier')]),
-                option([text('Boxer')]),
-                option([text('British Shorthair')]),
-                option([text('Bulldog')]),
-                option([text('Burmese')]),
-                option([text('Cavalier King Charles Spaniel')]),
-                option([text('Corgi')]),
-                option([text('Cornish Rex')]),
-                option([text('Dachshund')]),
-                option([text('Devon Rex')]),
-                option([text('Doberman Pinscher')]),
-                option([text('German Shepherd')]),
-                option([text('Golden Retriever')]),
-                option([text('Great Dane')]),
-                option([text('Himalayan')]),
-                option([text('Labrador Retriever')]),
-                option([text('Maine Coon')]),
-                option([text('Manx')]),
-                option([text('Miniature Schnauzer')]),
-                option([text('Norwegian Forest Cat')]),
-                option([text('Oriental Shorthair')]),
-                option([text('Persian')]),
-                option([text('Pomeranian')]),
-                option([text('Poodle')]),
-                option([text('Ragdoll')]),
-                option([text('Rottweiler')]),
-                option([text('Russian Blue')]),
-                option([text('Scottish Fold')]),
-                option([text('Shih Tzu')]),
-                option([text('Siamese')]),
-                option([text('Siberian Husky')]),
-                option([text('Sphynx')]),
-                option([text('Turkish Angora')]),
+                option([Component.text('Breed')]),
+                option([Component.text('Abyssinian')]),
+                option([Component.text('American Shorthair')]),
+                option([Component.text('Australian Shepherd')]),
+                option([Component.text('Beagle')]),
+                option([Component.text('Bengal')]),
+                option([Component.text('Birman')]),
+                option([Component.text('Border Collie')]),
+                option([Component.text('Boston Terrier')]),
+                option([Component.text('Boxer')]),
+                option([Component.text('British Shorthair')]),
+                option([Component.text('Bulldog')]),
+                option([Component.text('Burmese')]),
+                option([Component.text('Cavalier King Charles Spaniel')]),
+                option([Component.text('Corgi')]),
+                option([Component.text('Cornish Rex')]),
+                option([Component.text('Dachshund')]),
+                option([Component.text('Devon Rex')]),
+                option([Component.text('Doberman Pinscher')]),
+                option([Component.text('German Shepherd')]),
+                option([Component.text('Golden Retriever')]),
+                option([Component.text('Great Dane')]),
+                option([Component.text('Himalayan')]),
+                option([Component.text('Labrador Retriever')]),
+                option([Component.text('Maine Coon')]),
+                option([Component.text('Manx')]),
+                option([Component.text('Miniature Schnauzer')]),
+                option([Component.text('Norwegian Forest Cat')]),
+                option([Component.text('Oriental Shorthair')]),
+                option([Component.text('Persian')]),
+                option([Component.text('Pomeranian')]),
+                option([Component.text('Poodle')]),
+                option([Component.text('Ragdoll')]),
+                option([Component.text('Rottweiler')]),
+                option([Component.text('Russian Blue')]),
+                option([Component.text('Scottish Fold')]),
+                option([Component.text('Shih Tzu')]),
+                option([Component.text('Siamese')]),
+                option([Component.text('Siberian Husky')]),
+                option([Component.text('Sphynx')]),
+                option([Component.text('Turkish Angora')]),
               ],
             ),
             div(classes: 'select-arrow', [
@@ -90,19 +91,19 @@ class FiltersAndSorting extends StatelessComponent {
           div(classes: 'select-wrapper', [
             select(classes: 'custom-select', [
               option([
-                text('Age'),
+                Component.text('Age'),
               ]),
               option([
-                text('Puppy / Kitten'),
+                Component.text('Puppy / Kitten'),
               ]),
               option([
-                text('Young'),
+                Component.text('Young'),
               ]),
               option([
-                text('Adult'),
+                Component.text('Adult'),
               ]),
               option([
-                text('Senior'),
+                Component.text('Senior'),
               ]),
             ]),
             div(classes: 'select-arrow', [
@@ -113,10 +114,10 @@ class FiltersAndSorting extends StatelessComponent {
         div(classes: 'select-wrapper sort-wrapper', [
           select([
             option([
-              text('Sort By: Newest'),
+              Component.text('Sort By: Newest'),
             ]),
             option([
-              text('Sort By: Oldest'),
+              Component.text('Sort By: Oldest'),
             ]),
           ]),
           div(classes: 'select-arrow', [
