@@ -1,4 +1,5 @@
 import 'package:jaspr/jaspr.dart';
+import 'package:jaspr/dom.dart';
 
 class Hero extends StatelessComponent {
   const Hero({super.key});
@@ -8,12 +9,12 @@ class Hero extends StatelessComponent {
     return div(classes: 'container hero-section', [
       div(classes: 'hero', [
         h1([
-          text('Your Bestest Buddy is'),
+          Component.text('Your Bestest Buddy is'),
           br(),
-          text('Waiting'),
+          Component.text('Waiting'),
         ]),
         p([
-          text("Find and adopt a pet you'll love. Start your search to meet your new companion."),
+          Component.text("Find and adopt a pet you'll love. Start your search to meet your new companion."),
         ]),
 
         // <!-- Search Bar -->
@@ -27,7 +28,7 @@ class Hero extends StatelessComponent {
             attributes: {'placeholder': 'Search by city, state, or zip'},
           ),
           button(classes: 'search-btn', [
-            text('Search'),
+            Component.text('Search'),
           ]),
         ]),
       ]),

@@ -1,4 +1,5 @@
 import 'package:jaspr/jaspr.dart';
+import 'package:jaspr/dom.dart';
 import 'package:shared/shared.dart';
 
 @client
@@ -26,13 +27,13 @@ class PetCard extends StatelessComponent {
       ]),
       div(classes: 'card-content', [
         h3(classes: 'card-title', [
-          text(pet.name),
+          Component.text(pet.name),
         ]),
         p(classes: 'card-details', [
-          text('${pet.breed}, ${pet.age}'),
+          Component.text('${pet.breed}, ${pet.age}'),
         ]),
         p(classes: 'card-desc', [
-          text(pet.description),
+          Component.text(pet.description),
         ]),
       ]),
     ]);
